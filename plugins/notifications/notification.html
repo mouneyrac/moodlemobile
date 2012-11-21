@@ -10,5 +10,6 @@
     <%= fullmessage %>
 </div>
 <footer>
-    <%= date %>
+    <% notifdate = new Date(date*1000) %>
+    <%= notifdate.getDate() %> / <%= notifdate.getMonth() + 1 %>  / <%= notifdate.getFullYear() %> 
 </footer>
