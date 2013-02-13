@@ -442,6 +442,7 @@ ol {
 -------------------------------------------------------------------------- */
 .content-index {
   width: 100%;
+  position: relative;
 }
 
 .settings-section,
@@ -515,6 +516,8 @@ text-decoration: none;
   border-left: 1px solid #efefef;
   box-shadow: -10px 0 30px 0 rgba(0, 0, 0, 0.2);
   background-color: white;
+  width: 410px;
+  padding-right: 50px;
 }
 
 #add-site {
